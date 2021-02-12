@@ -348,14 +348,15 @@ ul {
 .left,
 .right {
     position: absolute;
-    top: 0;
-    height: 100%;
+    top: 40%;
+    height: 20%;
+    
 
     display: flex;
     align-items: center;
 
     color: #fff;
-    font-size: 35px;
+    font-size: 60px;
     cursor: pointer;
     z-index: 2;
 }
