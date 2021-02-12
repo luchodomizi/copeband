@@ -525,3 +525,15 @@ footer {
         background-color: #1877F2;
     }
 }
+
+
+@media screen and (max-width:350px){
+    h1.titulo {
+        font-size: 70px;
+    }
+    .left,
+    .right {
+        font-size: 40px;
+    }
+}
+
