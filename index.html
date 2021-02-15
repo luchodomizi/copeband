@@ -9,7 +9,7 @@
     <!-- Favicon -->
     <link rel="shortcut icon" href="icon/iconopng.png" />
     <!-- Materialize -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="css/materialize.min.css">
     <!-- Boxicons -->
     <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
     <!-- Fuentes -->
@@ -19,6 +19,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Lexend+Mega&display=swap" rel="stylesheet">
     <!-- slider y CSS  -->
+    <link rel="stylesheet" href="css/swiper-bundle.min.css" />
+    <script src="js/swiper-bundle.min.js"></script>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/font-awesome.css">
     <script src="js/jquery-3.1.0.min.js"></script>
@@ -46,13 +48,15 @@
 
     </header>
     <main>
-        <!-- SLIDER -->
-        <section class="sliderr" id="nosotros">
-            <div class="slideshow">
-                <ul class="slider">
-                    <li>
-                        <img src="img/luchonosotrosbyn.jpg" alt="">
-                        <section class="caption">
+
+
+        <!-- SLIDER SWIPE -->
+        <section class="silderr" id="nosotros">
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="img/luchonosotrosbyn.jpg" alt="" class="lucho">
+                        <div class="caption">
                             <h1>Lucho Domizi</h1>
                             <a href="https://www.instagram.com/luchodomizi/" class="iconoinsta" target="_blank">
                                 <i class='bx bxl-instagram'></i>
@@ -60,11 +64,11 @@
                             <a href="https://www.facebook.com/luchodomizi" class="iconoface" target="_blank">
                                 <i class='bx bxl-facebook'></i>
                             </a>
-                        </section>
-                    </li>
-                    <li>
-                        <img src="img/luisnosotrosbyn.jpg" alt="">
-                        <section class="caption">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="img/luisnosotrosbyn.jpg" alt="" class="luis">
+                        <div class="caption">
                             <h1>Luis Larrondo</h1>
                             <a href="https://www.instagram.com/luis.larrondo/" class="iconoinsta" target="_blank">
                                 <i class='bx bxl-instagram'></i>
@@ -72,11 +76,11 @@
                             <a href="https://www.facebook.com/luis.larrondo" class="iconoface" target="_blank">
                                 <i class='bx bxl-facebook'></i>
                             </a>
-                        </section>
-                    </li>
-                    <li>
-                        <img src="img/carranosotros2byn.jpg" alt="">
-                        <section class="caption">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="img/carranosotros2byn.jpg" alt="" class="carra">
+                        <div class="caption">
                             <h1>Mariano Carradori</h1>
                             <a href="https://www.instagram.com/pelaguitarra/" class="iconoinsta" target="_blank">
                                 <i class='bx bxl-instagram'></i>
@@ -84,11 +88,11 @@
                             <a href="https://www.facebook.com/mariano.carradori" class="iconoface" target="_blank">
                                 <i class='bx bxl-facebook'></i>
                             </a>
-                        </section>
-                    </li>
-                    <li>
-                        <img src="img/nikonosotrosbyn.jpg" alt="">
-                        <section class="caption">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="img/nikonosotrosbyn.jpg" alt="" class="nicko">
+                        <div class="caption">
                             <h1>Nicko Garcia</h1>
                             <a href="https://www.instagram.com/nickoogarcia11/" class="iconoinsta" target="_blank">
                                 <i class='bx bxl-instagram'></i>
@@ -96,34 +100,27 @@
                             <a href="https://www.facebook.com/nicko.garcia1" class="iconoface" target="_blank">
                                 <i class='bx bxl-facebook'></i>
                             </a>
-                        </section>
-                    </li>
-                    <li>
-                        <img src="img/payenosotrosbyn.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="img/payenosotrosbyn.jpg" alt="" class="paye">
                         <section class="caption">
                             <h1>Agustin Pagliero</h1>
                             <a href="https://www.facebook.com/agustinpagliero" class="iconoface" target="_blank">
                                 <i class='bx bxl-facebook'></i>
                             </a>
                         </section>
-                    </li>
 
-                </ul>
+                    </div>
 
-                <ol class="pagination">
 
-                </ol>
-
-                <div class="left">
-                    <span class="fa fa-chevron-left"></span>
                 </div>
-
-                <div class="right">
-                    <span class="fa fa-chevron-right"></span>
-                </div>
-
+                <!-- Add Arrows -->
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
             </div>
         </section>
+
 
         <!-- GALERIA -->
         <section class="background">
@@ -131,7 +128,7 @@
                 <div class="col s12 center-align">
                     <h2 class="subtitulo">Galería</h2>
                 </div>
-                <div class="row galeria">
+                <div class="row galeria col s12">
                     <div class="col s12 m4 l2">
                         <div class="material-placeholder">
                             <img src="img/1.jpg" class="responsive-img materialboxed" alt="">
@@ -232,14 +229,14 @@
 
     </main>
     <footer id="footer">
-        
+
         <div class="contenedor footer-content" id="contacto">
             <div class="contact-us">
                 <h2 class="brand">Cope</h2>
                 <p class="subbrand">Trabajamos profesionalmente.</p>
                 <p class="subbrand">.</p>
                 <p class="subbrand">3467443669</p>
-               
+
             </div>
             <div class="social-media">
 
@@ -247,19 +244,28 @@
                     <i class='bx bxl-instagram'></i>
                     <a href="mailto:copeband@gmail.com" class="icomail" target="_blank">
                         <i class='bx bx-mail-send'></i>
-                        
+
 
                     </a>
-                    
+
                 </a>
             </div>
-            
+
 
         </div>
         <div class="line"></div>
     </footer>
 
-
+    <script>
+        var swiper = new Swiper('.swiper-container', {
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+        });
+    </script>
+    <script src="js/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script src="js/menu.js"></script>
     <script src="js/closemenu.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
