@@ -380,6 +380,11 @@ footer {
     color: white;
 }
 
+.logocontact{
+    width: 250px; 
+    height: 100px; 
+    margin: 0px auto 100px auto;
+}
 
 
 
@@ -502,6 +507,12 @@ footer {
         margin: 25px auto 200px auto;
     }
 
+    .logocontact{
+        width: 200px; 
+        height: 100px; 
+        margin: 0px auto 100px auto;
+    }
+
 }
 
 
@@ -512,5 +523,9 @@ footer {
         margin: 50px auto 200px auto;
     }
 
-
+    .logocontact{
+        width: 150px; 
+        height: 100px; 
+        margin: 0px auto 100px auto;
+    }
 }
