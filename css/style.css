@@ -46,6 +46,16 @@ header {
 }
 
 
+.logoportada{
+    
+    width:450px; 
+    height: 800px; 
+    margin: 0px auto 200px auto;
+    padding: 0px 0px 0px 0px;
+    
+}
+
+
 
 
 
@@ -212,25 +222,6 @@ header {
 /*TEXTO*/
 
 
-.titulo {
-
-    font-family: 'Lobster', cursive;
-    display: flex;
-    justify-content: center;
-
-
-    /*PARA DARLE DEGRADADO AL TEXTO*/
-    background: linear-gradient(to right, #45B649, #DCE35B);
-    -webkit-background-clip: text;
-    color: transparent;
-    /*PARA DARLE SOMBRA AL DEGRADADO*/
-    filter: drop-shadow(2px 2px 2px #000000);
-
-    font-size: 200px;
-    font-weight: lighter;
-
-
-}
 
 .subtitulo {
     font-family: 'Lobster', cursive;
@@ -378,15 +369,6 @@ footer {
     margin: auto;
 }
 
-.brand {
-
-    font-family: 'Lobster', cursive;
-    background: linear-gradient(to right, #45B649, #DCE35B);
-    -webkit-background-clip: text;
-    color: transparent;
-    font-size: 100px;
-}
-
 .contact-us {
     position: relative;
 }
@@ -443,11 +425,6 @@ footer {
         width: 50vw;
     }
 
-    h1.titulo {
-        font-size: 120px;
-    }
-
-
     .swiper-wrapper .caption h1 {
         font-size: 25px;
         text-align: left;
@@ -460,29 +437,33 @@ footer {
         object-position: 40%;
 
     }
+
     .swiper-container .swiper-wrapper .swiper-slide .luis {
 
         width: 100%;
         object-position: 20%;
 
     }
+
     .swiper-container .swiper-wrapper .swiper-slide .carra {
 
         width: 100%;
         object-position: 20%;
 
     }
+
     .swiper-container .swiper-wrapper .swiper-slide .nicko {
 
         width: 100%;
         object-position: 20%;
 
     }
+
     .swiper-container .swiper-wrapper .swiper-slide .paye {
 
         width: 100%;
         object-position: 40%;
-        
+
 
     }
 
@@ -515,12 +496,20 @@ footer {
         top: 73%;
         left: 24%;
     }
+    .logoportada{
+        width: 200px; 
+        height: 100px; 
+        margin: 25px auto 200px auto;
+    }
+
 }
 
 
 @media screen and (max-width:350px) {
-    h1.titulo {
-        font-size: 70px;
+    .logoportada{
+        width:170px; 
+        height: 100px; 
+        margin: 50px auto 200px auto;
     }
 
 
